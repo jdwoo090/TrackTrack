@@ -61,5 +61,9 @@ class MainActivity : AppCompatActivity() {
             team12.visibility = View.INVISIBLE
             moreTeam.visibility = View.VISIBLE
         }
+
+        rename.setOnClickListener() {
+
+        }
     }
 }

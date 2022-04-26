@@ -28,7 +28,7 @@
         android:id="@+id/rename"
         android:layout_width="408dp"
         android:layout_height="81dp"
-        android:text="Name Buttons"
+        android:text="Set Up Buttons"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/team1"
         app:layout_constraintEnd_toEndOf="parent"
