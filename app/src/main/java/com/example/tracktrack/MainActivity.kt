@@ -1,9 +1,11 @@
 package com.example.tracktrack
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import com.example.tracktrack.ui.login.setUpTeamsActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -63,7 +65,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         rename.setOnClickListener() {
-
+            val intent = Intent(this, setUpTeamsActivity::class.java)
+            startActivity(intent)
         }
     }
 }
+
+
+
