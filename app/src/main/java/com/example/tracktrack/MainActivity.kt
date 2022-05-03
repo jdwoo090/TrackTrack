@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         rename.setOnClickListener() {
-            val intent = Intent(this, setUpTeamsActivity::class.java)
+            val intent = Intent(this, setUpTeamsA::class.java)
             startActivity(intent)
         }
     }

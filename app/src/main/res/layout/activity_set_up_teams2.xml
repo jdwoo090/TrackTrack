@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setUpTeamsA">
+
+    <EditText
+        android:id="@+id/nameTeams1"
+        android:layout_width="750sp"
+        android:layout_height="75sp"
+        android:layout_marginTop="12dp"
+        android:hint="Please enter Team Name"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameTeams2"
+        android:layout_width="750sp"
+        android:layout_height="75sp"
+        android:layout_marginTop="4dp"
+        android:hint="Please enter Team Name"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTeams1" />
+
+    <EditText
+        android:id="@+id/nameTeams4"
+        android:layout_width="750sp"
+        android:layout_height="75sp"
+        android:layout_marginTop="248dp"
+        android:hint="Please enter Team Name"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameTeams3"
+        android:layout_width="750sp"
+        android:layout_height="75sp"
+        android:layout_marginTop="172dp"
+        android:hint="Please enter Team Name"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameTeams5"
+        android:layout_width="750sp"
+        android:layout_height="75sp"
+        android:layout_marginTop="328dp"
+        android:hint="Please enter Team Name"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameTeams6"
+        android:layout_width="750sp"
+        android:layout_height="75sp"
+        android:layout_marginTop="400dp"
+        android:hint="Please enter Team Name"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameTeams10"
+        android:layout_width="750sp"
+        android:layout_height="75sp"
+        android:layout_marginTop="696dp"
+        android:hint="Please enter Team Name"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameTeams11"
+        android:layout_width="321dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="768dp"
+        android:hint="Please enter Team Name"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/nameTeams12"
+        android:layout_width="321dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="844dp"
+        android:hint="Please enter Team Name"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/nameTeams9"
+        android:layout_width="750sp"
+        android:layout_height="75sp"
+        android:layout_marginTop="624dp"
+        android:hint="Please enter Team Name"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameTeams8"
+        android:layout_width="750sp"
+        android:layout_height="75sp"
+        android:layout_marginTop="552dp"
+        android:hint="Please enter Team Name"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameTeams7"
+        android:layout_width="750sp"
+        android:layout_height="75sp"
+        android:layout_marginTop="472dp"
+        android:hint="Please enter Team Name"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/setplayers"
+        android:layout_width="257dp"
+        android:layout_height="81dp"
+        android:layout_gravity="start"
+        android:enabled="true"
+        android:text="Open Player Setup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/setnames"
+        android:layout_width="257dp"
+        android:layout_height="82dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="780dp"
+        android:enabled="true"
+        android:text="Set Team Names"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/morete"
+        android:layout_width="181dp"
+        android:layout_height="98dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="816dp"
+        android:enabled="true"
+        android:text="More Teams"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
