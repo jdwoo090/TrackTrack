@@ -7,6 +7,129 @@
     android:background="#142542"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/scoreText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Score:                   0pts"
+        android:textSize="50sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/scoreText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:                   0pts"
+        android:textSize="50sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreText4"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/scoreText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:                   0pts"
+        android:textSize="50sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team5"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/scoreText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:                   0pts"
+        android:textSize="50sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team6"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/scoreText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:                   0pts"
+        android:textSize="50sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team7"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/scoreText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:                   0pts"
+        android:textSize="50sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team8"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/scoreText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:                   0pts"
+        android:textSize="50sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreText9"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/scoreText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:                   0pts"
+        android:textSize="50sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team10"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/scoreText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:                   0pts"
+        android:textSize="50sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team11"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/scoreText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:                   0pts"
+        android:textSize="50sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team2"
+        tools:visibility="visible" />
+
     <Button
         android:id="@+id/team12"
         android:layout_width="221dp"
@@ -240,8 +363,10 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/moreTeam"
         app:layout_constraintEnd_toStartOf="@+id/team4"
+        app:layout_constraintHorizontal_bias="0.096"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rename" />
+        app:layout_constraintTop_toBottomOf="@+id/rename"
+        app:layout_constraintVertical_bias="0.666" />
 
     <Button
         android:id="@+id/close"
@@ -253,7 +378,33 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/moreTeam"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toEndOf="@+id/team4"
-        app:layout_constraintTop_toBottomOf="@+id/rename" />
+        app:layout_constraintTop_toBottomOf="@+id/rename"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:                   0pts"
+        android:textSize="50sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rename"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/scoreText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:                   0pts"
+        android:textSize="50sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team1"
+        tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

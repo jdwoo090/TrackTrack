@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrackTrack">
         <activity
+            android:name=".setUpPlayers"
+            android:exported="false" />
+        <activity
             android:name=".setUpTeamsA"
             android:exported="false" />
         <activity
